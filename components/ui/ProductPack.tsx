@@ -94,7 +94,7 @@ export function ProductPack({ variant, name, sub }: Props) {
         >
           <Logo
             className="h-7 w-7"
-            style={palette.label } 
+            color={palette.label}
           />
         </div>
         <span
