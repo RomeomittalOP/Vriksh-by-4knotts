@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vriksh-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "3344"],
+      "port": 3344,
+      "cwd": "C:\\Users\\ASUS\\vriksh-by-4knotts"
+    }
+  ]
+}
