@@ -87,7 +87,8 @@ export function ProductPack({ variant, name, sub }: Props) {
       </div>
 
       {/* Wordmark block */}
-     <div className="absolute inset-x-0 top-6 flex flex-col items-center text-center">
+{/* Wordmark block */}
+<div className="absolute inset-x-0 top-6 flex flex-col items-center text-center">
   <div
     className="mb-2 flex h-11 w-11 items-center justify-center rounded-full"
     style={{ background: palette.iconBg }}
@@ -96,20 +97,21 @@ export function ProductPack({ variant, name, sub }: Props) {
       <Logo className="h-7 w-7" />
     </div>
   </div>
+
+  <span
+    className="font-serif text-xl leading-none tracking-tight"
+    style={{ color: palette.label }}
+  >
+    Vriksh
+  </span>
+
+  <span
+    className="mt-1 font-mono text-[7px] uppercase tracking-[0.3em]"
+    style={{ color: palette.sub }}
+  >
+    by 4Knotts
+  </span>
 </div>
-        <span
-          className="font-serif text-xl leading-none tracking-tight"
-          style={{ color: palette.label }}
-        >
-          Vriksh
-        </span>
-        <span
-          className="mt-1 font-mono text-[7px] uppercase tracking-[0.3em]"
-          style={{ color: palette.sub }}
-        >
-          by 4Knotts
-        </span>
-      </div>
 
       {/* Name plate sits over the colour-band boundary */}
       <div
