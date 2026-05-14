@@ -87,16 +87,16 @@ export function ProductPack({ variant, name, sub }: Props) {
       </div>
 
       {/* Wordmark block */}
-      <div className="absolute inset-x-0 top-6 flex flex-col items-center text-center">
-        <div
-          className="mb-2 flex h-11 w-11 items-center justify-center rounded-full"
-          style={{ background: palette.iconBg }}
-        >
-          <Logo
-            className="h-7 w-7"
-            color={palette.label}
-          />
-        </div>
+     <div className="absolute inset-x-0 top-6 flex flex-col items-center text-center">
+  <div
+    className="mb-2 flex h-11 w-11 items-center justify-center rounded-full"
+    style={{ background: palette.iconBg }}
+  >
+    <div style={{ color: palette.label }}>
+      <Logo className="h-7 w-7" />
+    </div>
+  </div>
+</div>
         <span
           className="font-serif text-xl leading-none tracking-tight"
           style={{ color: palette.label }}
